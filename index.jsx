@@ -7,9 +7,15 @@ features:
   - heading: Export to static HTML
   - heading: One-click publishing
 ---
+<meta name='twitter:card' content='summary_large' />
+<meta name='twitter:site' content='@getcompositor' />
+<meta name='twitter:title' content='Compositor Iso' />
+<meta name='twitter:description' content='Build pages and prototypes with Lab UI components. No configuration or build setup required.' />
+<meta name='twitter:image' content='https://compositor.io/iso/docs/images/hero.jpg' />
 <header>
   <Flex
       align="center"
+      wrap
       px={3}
       py={3}
     >
@@ -17,7 +23,10 @@ features:
       <Logo />
       Compositor
     </NavLink>
-    <Box mx="auto" />
+    <Box width={[ 1, 0 ]} mx="auto" my={2}/>
+    <NavLink mx={3} href='https://compositor.io/iso/docs/'>
+      Documentation
+    </NavLink>
     <NavLink href='https://iso.c8r.io/'>
       Download
     </NavLink>
@@ -38,7 +47,7 @@ features:
         flex: 'none'
       }}
     >
-      <Title mb={2}>
+      <Title mb={4}>
         Iso
         <Caps ml={2} color="muted">
           Beta
@@ -50,28 +59,28 @@ features:
       <Flex
         wrap
         align="center"
-        py={4}>
+        py={[ 4, 5 ]}>
         <BigButton href='https://compositor.io/lab/' mr={3} my={2}>
           Get Lab
         </BigButton>
         <Box>
           <Text fontSize={0}>
-            Available for MacOS
+            <b>Free</b> with Lab subscription
           </Text>
           <Text fontSize={0}>
-            Free with Lab subscription
+            Available for MacOS
           </Text>
         </Box>
       </Flex>
     </Box>
     <Box
       px={3}
-      py={4}
+      py={2}
       ml={[ 0, -0 ]}
       mr={[ 0, -6 ]}
       width={[ 1 ]}
     >
-      <Image src="docs/images/hero.png" />
+      <Image src="docs/images/hero.jpg" />
     </Box>
   </Flex>
 </Container>
@@ -86,8 +95,8 @@ features:
     ))}
   </Flex>
 </Container>
-<Container py={4}>
-  <Heading fontSize={3}>
+<Container py={5}>
+  <Heading fontSize={3} mb={3}>
     Already a Lab subcriber?
   </Heading>
   <Link href='https://iso.c8r.io/'>
@@ -118,3 +127,20 @@ features:
     </Container>
   </Box>
 </footer>
+<script
+dangerouslySetInnerHTML={{
+  __html: `(function(i, s, o, g, r, a, m) {
+i["GoogleAnalyticsObject"] = r;
+i[r] = i[r] || function() {
+    (i[r].q = i[r].q || []).push(arguments)
+}, i[r].l = 1 * new Date();
+a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+a.async = 1;
+a.src = g;
+m.parentNode.insertBefore(a, m)
+})(window, document, "script", "//www.google-analytics.com/analytics.js", "ga");
+ga("create", "UA-78113757-1", "auto");
+ga("send", "pageview");
+`
+}}
+/>
