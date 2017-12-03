@@ -1,0 +1,34 @@
+{
+  "fonts": [
+    "\"Avenir Next\", Helvetica, Arial, sans-serif"
+  ],
+  "space": [
+    0,
+    4,
+    8,
+    16,
+    32,
+    64,
+    96,
+    192
+  ],
+  "fontSizes": [
+    12,
+    14,
+    16,
+    20,
+    24,
+    32,
+    48,
+    64,
+    72,
+    96
+  ],
+  "colors": {
+    "black": "#151f23",
+    "blue": "#009be7",
+    "pink": "#f700a9",
+    "gray": "#e7ecef"
+  },
+  "lineHeight": "1.375"
+}
