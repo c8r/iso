@@ -34,59 +34,61 @@ features:
     </NavLink>
   </Flex>
 </header>
-<Container style={{ overflow: 'hidden' }}>
-  <Flex
-    style={{
-      minHeight: '90vh',
-    }}
-    flexDirection={[ 'column', 'row' ]}
-    mx={-3}
-    py={4}
-    align="center">
-    <Box
-      px={3}
-      py={4}
-      width={[ 1, 384, 448 ]}
+<div style={{ overflow: 'hidden' }}>
+  <Container>
+    <Flex
       style={{
-        flex: 'none'
+        minHeight: '90vh',
       }}
-    >
-      <Title mb={4}>
-        Iso
-        <Caps ml={2} color="muted">
-          Beta
-        </Caps>
-      </Title>
-      <Subhead>
-        {props.description}
-      </Subhead>
-      <Flex
-        wrap
-        align="center"
-        py={[ 4, 5 ]}>
-        <BigButton href='https://compositor.io/lab/' mr={3} my={2}>
-          Get Lab
-        </BigButton>
-        <Box>
-          <Text fontSize={0}>
-            <b>Free</b> with Lab subscription
-          </Text>
-          <Text fontSize={0}>
-            Available for MacOS
-          </Text>
-        </Box>
-      </Flex>
-    </Box>
-    <Box
-      px={3}
-      py={2}
-      mr={[ 0, -6 ]}
-      width={[ 1 ]}
-    >
-      <Image src="docs/images/hero.jpg" />
-    </Box>
-  </Flex>
-</Container>
+      flexDirection={[ 'column', 'row' ]}
+      mx={-3}
+      py={4}
+      align="center">
+      <Box
+        px={3}
+        py={4}
+        width={[ 1, 384, 448 ]}
+        style={{
+          flex: 'none'
+        }}
+      >
+        <Title mb={4}>
+          Iso
+          <Caps ml={2} color="muted">
+            Beta
+          </Caps>
+        </Title>
+        <Subhead>
+          {props.description}
+        </Subhead>
+        <Flex
+          wrap
+          align="center"
+          py={[ 4, 5 ]}>
+          <BigButton href='https://compositor.io/lab/' mr={3} my={2}>
+            Get Lab
+          </BigButton>
+          <Box>
+            <Text fontSize={0}>
+              <b>Free</b> with Lab subscription
+            </Text>
+            <Text fontSize={0}>
+              Available for MacOS
+            </Text>
+          </Box>
+        </Flex>
+      </Box>
+      <Box
+        px={3}
+        py={2}
+        mr={[ 0, -6 ]}
+        width={[ 1 ]}
+      >
+        <Image src="docs/images/hero.jpg" />
+      </Box>
+    </Flex>
+  </Container>
+</div>
 <Container py={4}>
   <Flex wrap mx={-3}>
     {props.features.map(feat => (
