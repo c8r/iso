@@ -26,11 +26,9 @@ features:
       Compositor
     </NavLink>
     <Box mx="auto" />
-    {/*
-    <NavLink mx={3} href='https://compositor.io/iso/docs/'>
+    <NavLink mx={3} href='https://github.com/c8r/iso/blob/master/docs/index.md'>
       Docs
     </NavLink>
-    */}
     <NavLink href='https://iso.c8r.io/'>
       Download
     </NavLink>
