@@ -13,22 +13,23 @@ Each Iso file acts like a component and can be exported as static HTML.
 
 ## User Interface
 
-<img src='https://c8r-x0.s3.amazonaws.com/code.jpg' />
 The main area on the left of Iso's window is a live preview of the current file.
 To the right is the editor pane, which shows the JSX source code by default.
+<img src='https://c8r-x0.s3.amazonaws.com/code.jpg' />
 
-<img src='https://c8r-x0.s3.amazonaws.com/props.jpg' />
 Clicking on the props button in the upper right
 shows the YAML-based props editor,
 where page-level props can be defined.
+<img src='https://c8r-x0.s3.amazonaws.com/props.jpg' />
 
-<img src='https://c8r-x0.s3.amazonaws.com/folder.jpg' />
 Clicking on the folder icon shows the current folder and allows you to open Iso-compatible files.
+<img src='https://c8r-x0.s3.amazonaws.com/folder.jpg' />
 
 The Lab button opens the Compositor Lab app when the current folder includes a Lab project.
 
-<img src='https://c8r-x0.s3.amazonaws.com/http.jpg' />
 The HTTP button starts a local Preview server on port 8000 and opens the current page in the default browser 
+<img src='https://c8r-x0.s3.amazonaws.com/http.jpg' />
+
 The title bar includes the path and file name for the currently opened file. Clicking on any part of the path will navigate to that folder.
 
 
