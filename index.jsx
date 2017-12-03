@@ -1,4 +1,5 @@
 ---
+title: Compositor Iso
 features:
   - heading: Prototype with JSX
   - heading: Zero configuration
@@ -38,7 +39,8 @@ features:
       minHeight: '90vh'
     }}
     flexDirection={[ 'column', 'row' ]}
-    py={4} align="center">
+    py={4}
+    align="center">
     <Box
       px={3}
       py={4}
