@@ -26,18 +26,20 @@ features:
       Compositor
     </NavLink>
     <Box mx="auto" />
+    {/*
     <NavLink mx={3} href='https://compositor.io/iso/docs/'>
       Docs
     </NavLink>
+    */}
     <NavLink href='https://iso.c8r.io/'>
       Download
     </NavLink>
   </Flex>
 </header>
-<Container>
+<Container style={{ overflow: 'hidden' }}>
   <Flex
     style={{
-      minHeight: '90vh'
+      minHeight: '90vh',
     }}
     flexDirection={[ 'column', 'row' ]}
     mx={-3}
