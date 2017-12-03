@@ -1,3 +1,6 @@
+---
+title: Compositor Iso Demo
+---
 <Hero>
   <Heading
     fontSize={7}>
@@ -17,7 +20,7 @@
         Lab Sync
       </Subhead>
       <Text>
-        Compositor Iso syncs with Lab to show real-time updates to components and design system constants and themes.
+        Iso syncs with Lab to show real-time updates to components and themes.
       </Text>
     </Box>
     <Box px={3} mb={4} width={[ 1, 1/2 ]}>
