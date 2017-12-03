@@ -1,6 +1,8 @@
 ---
 title: Compositor Iso
-description: Build pages and prototypes with Lab UI components. No configuration or build setup required.
+description: >-
+  Build pages and prototypes with Lab UI components. No configuration or build
+  setup required.
 features:
   - heading: Prototype with JSX
   - heading: Zero configuration
@@ -9,7 +11,7 @@ features:
   - heading: Export to static HTML
   - heading: One-click publishing
 ---
-<meta name='twitter:card' content='summary_large' />
+<meta name='twitter:card' content='summary_large_image' />
 <meta name='twitter:site' content='@getcompositor' />
 <meta name='twitter:title' content='Compositor Iso' />
 <meta name='twitter:description' content='Build pages and prototypes with Lab UI components. No configuration or build setup required.' />
