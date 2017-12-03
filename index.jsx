@@ -1,5 +1,6 @@
 ---
 title: Compositor Iso
+description: Build pages and prototypes with Lab UI components. No configuration or build setup required.
 features:
   - heading: Prototype with JSX
   - heading: Zero configuration
@@ -24,9 +25,9 @@ features:
       <Logo />
       Compositor
     </NavLink>
-    <Box width={[ 1, 0 ]} mx="auto" my={2}/>
+    <Box mx="auto" />
     <NavLink mx={3} href='https://compositor.io/iso/docs/'>
-      Documentation
+      Docs
     </NavLink>
     <NavLink href='https://iso.c8r.io/'>
       Download
@@ -39,6 +40,7 @@ features:
       minHeight: '90vh'
     }}
     flexDirection={[ 'column', 'row' ]}
+    mx={-3}
     py={4}
     align="center">
     <Box
@@ -56,7 +58,7 @@ features:
         </Caps>
       </Title>
       <Subhead>
-        Build pages and prototypes with Lab UI components. No configuration or build setup required.
+        {props.description}
       </Subhead>
       <Flex
         wrap
@@ -78,7 +80,6 @@ features:
     <Box
       px={3}
       py={2}
-      ml={[ 0, -0 ]}
       mr={[ 0, -6 ]}
       width={[ 1 ]}
     >
