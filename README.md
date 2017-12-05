@@ -5,6 +5,5 @@ Build pages and prototypes with Lab UI components. No configuration or build set
 
 ![](https://compositor.io/images/iso-hero.jpg)
 
-[Download](https://iso.c8r.io)
-
-[Documentation](docs/)
+- [Download](https://iso.c8r.io)
+- [Documentation](docs/)
