@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Frame renders 1`] = `
+<div
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <iframe
+    onLoad={[Function]}
+    scrolling="yes"
+    srcDoc="<style> *{box-sizing:border-box} body{margin:0} body{min-height:100vh} body{font-family:-apple-system,BlinkMacSystemFont,sans-serif;line-height:1.5}</style>
+<div id='app'></div>"
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "border": 0,
+        "display": "block",
+        "height": "calc(100vh - 40px)",
+        "margin": 0,
+        "opacity": 1,
+        "overflow": "scroll",
+        "width": "100%",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`Frame renders with overlay 1`] = `
+<div
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <iframe
+    onLoad={[Function]}
+    scrolling="yes"
+    srcDoc="<style> *{box-sizing:border-box} body{margin:0} body{min-height:100vh} body{font-family:-apple-system,BlinkMacSystemFont,sans-serif;line-height:1.5}</style>
+<div id='app'></div>"
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "border": 0,
+        "display": "block",
+        "height": "calc(100vh - 40px)",
+        "margin": 0,
+        "opacity": 1,
+        "overflow": "scroll",
+        "width": "100%",
+      }
+    }
+  />
+  <div
+    style={
+      Object {
+        "bottom": 0,
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "zIndex": 2,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`Frame renders without children 1`] = `
+<div
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <iframe
+    onLoad={[Function]}
+    scrolling="yes"
+    srcDoc="<style> *{box-sizing:border-box} body{margin:0} body{min-height:100vh} body{font-family:-apple-system,BlinkMacSystemFont,sans-serif;line-height:1.5}</style>
+<div id='app'></div>"
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "border": 0,
+        "display": "block",
+        "height": "calc(100vh - 40px)",
+        "margin": 0,
+        "opacity": 0.25,
+        "overflow": "scroll",
+        "width": "100%",
+      }
+    }
+  />
+</div>
+`;

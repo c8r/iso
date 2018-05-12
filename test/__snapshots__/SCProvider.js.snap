@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SCProvider renders 1`] = `
+<div
+  className="sc-bdVaJa cUmmwg"
+  color="#000"
+>
+  <h1>
+    hello
+  </h1>
+</div>
+`;

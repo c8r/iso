@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<meta charset='utf-8'>
+<link href='style.css' rel='stylesheet'>
+<base id='base'>
+<div id=app></div>
+<script>
+window.onerror = e => {
+  const { ipcRenderer } = require('electron')
+  console.error('window error', e)
+  ipcRenderer.send('WINDOW_ERROR', e)
+}
+require('./renderer')
+</script>

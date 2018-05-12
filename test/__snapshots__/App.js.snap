@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders 1`] = `
+<div
+  style={
+    Object {
+      "--bg": "#111",
+      "--gray0": "#ffffff",
+      "--gray1": "#d5d5d5",
+      "--gray2": "#a0a0a0",
+      "--gray3": "#7e7e7e",
+      "--gray4": "#646464",
+      "--gray5": "#4f4f4f",
+      "--gray6": "#3e3e3e",
+      "--gray7": "#2f2f2f",
+      "--gray8": "#222222",
+      "--gray9": "#161616",
+      "--text": "#fff",
+      "backgroundColor": "#111",
+      "color": "#fff",
+    }
+  }
+>
+  <div
+    className="sc-bwzfXH btIATc"
+    style={
+      Object {
+        "WebkitAppRegion": "drag",
+        "WebkitUserSelect": "none",
+        "fontSize": "12px",
+        "height": "40px",
+      }
+    }
+  >
+    <div
+      className="sc-bdVaJa exZDlf"
+    />
+    <div
+      className="sc-bdVaJa LbkC"
+    />
+    <div
+      className="sc-bdVaJa iHZvIS"
+      title=""
+    />
+    <div
+      className="sc-bdVaJa LbkC"
+    />
+    <div
+      className="sc-bwzfXH dYGrtd"
+    />
+  </div>
+  <div
+    className="sc-bwzfXH pjOvZ"
+    style={
+      Object {
+        "height": "calc(100vh - 40px)",
+      }
+    }
+  >
+    <div
+      className="sc-bdVaJa iHZvIS"
+      style={
+        Object {
+          "flex": "1 1 auto",
+          "height": "calc(100vh - 40px)",
+          "minWidth": "256px",
+        }
+      }
+    >
+      
+    </div>
+    <div
+      onClick={[Function]}
+      onMouseDown={[Function]}
+      onMouseMove={[Function]}
+      onMouseUp={[Function]}
+      style={
+        Object {
+          "cursor": "ew-resize",
+          "display": "flex",
+          "flex": "none",
+          "height": "(100vh - 40px)",
+          "userSelect": "none",
+          "width": 448,
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "flex": "none",
+            "height": "100%",
+            "marginRight": "-16px",
+            "position": "relative",
+            "width": "16px",
+            "zIndex": 2,
+          }
+        }
+      />
+      <div
+        className="sc-bdVaJa fECatf"
+        style={
+          Object {
+            "flex": "1 1 auto",
+            "height": "calc(100vh - 40px)",
+            "overflow": "auto",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;

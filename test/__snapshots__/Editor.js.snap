@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Editor renders 1`] = `
+<div
+  className="sc-bdVaJa gTcADx"
+>
+  <div
+    id="brace-editor"
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "color": "inherit",
+        "fontFamily": "\\"Roboto Mono\\", monospace",
+        "fontSize": 13,
+        "height": "calc(100vh - 40px)",
+        "width": "100%",
+      }
+    }
+  />
+</div>
+`;

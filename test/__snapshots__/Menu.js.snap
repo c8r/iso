@@ -1,0 +1,182 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu config snapshot 1`] = `
+Array [
+  Object {
+    "label": "Test",
+    "submenu": Array [
+      Object {
+        "role": "about",
+      },
+      Object {
+        "click": [Function],
+        "label": "Check for Updates...",
+      },
+      Object {
+        "type": "separator",
+      },
+      Object {
+        "role": "services",
+        "submenu": Array [],
+      },
+      Object {
+        "type": "separator",
+      },
+      Object {
+        "role": "hide",
+      },
+      Object {
+        "role": "hideothers",
+      },
+      Object {
+        "role": "unhide",
+      },
+      Object {
+        "type": "separator",
+      },
+      Object {
+        "role": "quit",
+      },
+    ],
+  },
+  Object {
+    "label": "File",
+    "submenu": Array [
+      Object {
+        "accelerator": "Cmd+N",
+        "click": [Function],
+        "label": "New...",
+      },
+      Object {
+        "accelerator": "Cmd+O",
+        "click": [Function],
+        "label": "Open...",
+      },
+      Object {
+        "label": "Open Recent",
+        "submenu": Array [
+          Object {
+            "type": "separator",
+          },
+          Object {
+            "click": [Function],
+            "label": "Clear List",
+          },
+        ],
+      },
+      Object {
+        "type": "separator",
+      },
+      Object {
+        "click": [Function],
+        "enabled": false,
+        "label": "Open in Editor",
+      },
+      Object {
+        "click": [Function],
+        "label": "Export HTML",
+      },
+      Object {
+        "type": "separator",
+      },
+      Object {
+        "role": "close",
+      },
+    ],
+  },
+  Object {
+    "role": "editMenu",
+  },
+  Object {
+    "label": "View",
+    "submenu": Array [
+      Object {
+        "accelerator": "Cmd+E",
+        "click": [Function],
+        "enabled": false,
+        "label": "View Folder",
+        "visible": false,
+      },
+      Object {
+        "accelerator": "Cmd+3",
+        "click": [Function],
+        "label": "Hide Panel",
+      },
+      Object {
+        "type": "separator",
+      },
+      Object {
+        "checked": false,
+        "click": [Function],
+        "label": "Dark Mode",
+        "type": "checkbox",
+      },
+      Object {
+        "checked": false,
+        "click": [Function],
+        "label": "Light Mode",
+        "type": "checkbox",
+      },
+      Object {
+        "type": "separator",
+      },
+      Object {
+        "checked": undefined,
+        "click": [Function],
+        "label": "VIM Mode",
+        "type": "checkbox",
+      },
+      Object {
+        "checked": undefined,
+        "click": [Function],
+        "label": "Enable Styled Components",
+        "type": "checkbox",
+      },
+      Object {
+        "type": "separator",
+      },
+      Object {
+        "role": "resetzoom",
+      },
+      Object {
+        "role": "zoomin",
+      },
+      Object {
+        "role": "zoomout",
+      },
+      Object {
+        "type": "separator",
+      },
+      Object {
+        "role": "togglefullscreen",
+      },
+    ],
+  },
+  Object {
+    "role": "windowMenu",
+  },
+  Object {
+    "role": "help",
+    "submenu": Array [
+      Object {
+        "click": [Function],
+        "label": "Getting Started",
+      },
+      Object {
+        "click": [Function],
+        "label": "Test Help",
+      },
+      Object {
+        "type": "separator",
+      },
+      Object {
+        "role": "toggledevtools",
+      },
+      Object {
+        "accelerator": "Cmd+Shift+R",
+        "role": "reload",
+      },
+    ],
+  },
+]
+`;

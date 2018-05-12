@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Preview renders 1`] = `
+<div>
+  <h1>
+    hello
+  </h1>
+</div>
+`;
+
+exports[`Preview renders with SCProvider 1`] = `
+<div
+  className="sc-bdVaJa cUmmwg"
+  color="#000"
+>
+  <h1>
+    hello
+  </h1>
+</div>
+`;
+
+exports[`Preview renders with front matter 1`] = `
+<div>
+  <h1>
+    beep
+  </h1>
+</div>
+`;
+
+exports[`Preview renders with webfont link 1`] = `
+Array [
+  <link
+    href="https://fonts.googleapis.com/css?family=Roboto"
+    rel="stylesheet"
+  />,
+  <div>
+    <h1>
+      hello
+    </h1>
+  </div>,
+]
+`;

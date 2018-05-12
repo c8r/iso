@@ -1,0 +1,20 @@
+*{box-sizing:border-box}
+body{font-family:system-ui,sans-serif;line-height:1.5;margin:0}
+pre, code, samp {font-family: 'Roboto Mono', Menlo, monospace}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Mono'),
+    local('RobotoMono-Regular'),
+    url(fonts/RobotoMono-Regular.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Mono Bold'),
+    local('RobotoMono-Bold'),
+    url(fonts/RobotoMono-Bold.woff2) format('woff2');
+}
