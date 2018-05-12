@@ -56,6 +56,6 @@ If you've used a previous version of Iso, see the [Migration Guide](docs/migrati
 [MIT License](LICENSE.md)
 
 [sc]: https://github.com/styled-components/styled-components
-[download]: https://github.com/c8r/iso/releases/download/v0.1.1/Iso-0.1.1.dmg
+[download]: https://github.com/c8r/iso/releases/latest
 [docs]: docs/
 
