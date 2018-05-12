@@ -63,6 +63,14 @@
     "jest": "^22.4.3",
     "spectron": "^3.8.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c8r/iso.git"
+  },
+  "bugs": {
+    "url": "https://github.com/c8r/iso/issues"
+  },
+  "homepage": "https://github.com/c8r/iso#readme",
   "build": {
     "appId": "io.compositor.iso",
     "productName": "Iso",
