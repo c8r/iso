@@ -113,5 +113,4 @@ ipcMain.on('export-html', (e, state) => {
     })
 })
 
-// enable once release is published
-// require('update-electron-app')()
+require('update-electron-app')()

@@ -40,27 +40,14 @@ export const config = props => {
       label: app.getName(),
       submenu: [
         { role: 'about' },
+        /*
         {
           label: 'Check for Updates...',
           click: e => {
             // todo: update for update-electron-app
-            ipcRenderer.send('check-for-update')
-            notifications.push('Checking for updates...')
-            ipcRenderer.once('update-not-available', () => {
-              notifications.push('Already up-to-date')
-            })
-            ipcRenderer.once('update-available', e => {
-              notifications.push('Downloading update...')
-            })
-            ipcRenderer.once('update-downloaded', e => {
-              notifications.push('Update available. Click to restart and install', {
-                onClick: e => {
-                  ipcRenderer.send('quit-and-install-update')
-                }
-              })
-            })
           }
         },
+        */
         { type: 'separator' },
         { role: 'services', submenu: [] },
         { type: 'separator' },

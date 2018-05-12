@@ -55,6 +55,7 @@
     "stringify-object": "^3.2.2",
     "styled-components": "^3.2.6",
     "styled-system": "^2.2.4",
+    "update-electron-app": "^1.1.2",
     "webpack": "^4.7.0"
   },
   "devDependencies": {
