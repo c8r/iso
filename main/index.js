@@ -113,4 +113,6 @@ ipcMain.on('export-html', (e, state) => {
     })
 })
 
-require('update-electron-app')()
+require('update-electron-app')({
+  repo: 'c8r/iso'
+})
