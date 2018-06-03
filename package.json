@@ -1,7 +1,7 @@
 {
   "name": "iso",
   "private": true,
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Build and prototype with pure JSX – no build setup or command line required",
   "main": "main/index.js",
   "scripts": {
